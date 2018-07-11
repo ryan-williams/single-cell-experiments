@@ -1,6 +1,9 @@
 [submodule "src/anndata"]
 	path = anndata
-	url = https://github.com/ryan-williams/anndata
+	url = https://github.com/lasersonlab/anndata
 [submodule "zarr"]
 	path = zarr
 	url = git@github.com:lasersonlab/zarr.git
+[submodule "gcsfs"]
+	path = gcsfs
+	url = git@github.com:lasersonlab/gcsfs.git
