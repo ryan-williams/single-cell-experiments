@@ -20,6 +20,9 @@ jobs:
             . venv/bin/activate
             echo "PYTHONPATH: $PYTHONPATH"
             pip install -r requirements.txt
+          command: |
+            cd anndata
+            pip install -r requires.txt
       - run:
           command: |
             if [ ! -d "spark-2.3.1-bin-hadoop2.7" ]; then
