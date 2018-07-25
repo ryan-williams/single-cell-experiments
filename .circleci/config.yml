@@ -22,6 +22,7 @@ jobs:
             pip install -r requirements.txt
           command: |
             cd anndata
+            pip install --upgrade pip
             pip install -r requires.txt
       - run:
           command: |
